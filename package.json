@@ -1,45 +1,45 @@
 {
-  "name": "nuxt-app",
-  "private": true,
-  "scripts": {
-    "build": "nuxt build",
-    "dev": "nuxt dev",
-    "generate": "nuxt generate",
-    "preview": "nuxt preview",
-    "postinstall": "nuxt prepare",
-    "commit": "git-cz",
-    "commit-all": "git add . & git-cz & git push",
-    "lint:eslint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore",
-    "lint:prettier": "prettier --write \"**/*.{js,ts,json,tsx,css,less,scss,vue,html,md}\"",
-    "lint:stylelint": "stylelint --fix \"**/*.{vue,less,postcss,css,scss}\" --cache --cache-location node_modules/.cache/stylelint/",
-    "lint:lint-staged": "lint-staged"
-  },
-  "devDependencies": {
-    "@commitlint/cli": "^17.7.1",
-    "@commitlint/config-conventional": "^17.7.0",
-    "@nuxt/devtools": "latest",
-    "@rushstack/eslint-patch": "^1.4.0",
-    "@vue/eslint-config-prettier": "^8.0.0",
-    "@vue/eslint-config-typescript": "^12.0.0",
-    "commitizen": "^4.3.0",
-    "cz-customizable": "^7.0.0",
-    "eslint": "^8.49.0",
-    "eslint-plugin-vue": "^9.17.0",
-    "husky": "^8.0.3",
-    "lint-staged": "^14.0.1",
-    "nuxt": "^3.7.3",
-    "prettier": "^3.0.3",
-    "sass": "^1.67.0",
-    "stylelint": "^13.13.1",
-    "stylelint-config-prettier": "^9.0.3",
-    "stylelint-config-standard": "^22.0.0",
-    "stylelint-order": "^4.1.0",
-    "stylelint-scss": "^3.20.1",
-    "typescript": "^5.2.2"
-  },
-  "config": {
-    "commitizen": {
-      "path": "node_modules/cz-customizable"
-    }
-  }
+	"name": "nuxt-app",
+	"private": true,
+	"scripts": {
+		"build": "nuxt build",
+		"dev": "nuxt dev",
+		"generate": "nuxt generate",
+		"preview": "nuxt preview",
+		"postinstall": "nuxt prepare",
+		"commit": "git-cz",
+		"commit-all": "git add . & git-cz & git push",
+		"lint:eslint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore",
+		"lint:prettier": "prettier --write \"**/*.{js,ts,json,tsx,css,less,scss,vue,html,md}\"",
+		"lint:stylelint": "stylelint --fix \"**/*.{vue,less,postcss,css,scss}\" --cache --cache-location node_modules/.cache/stylelint/",
+		"lint:lint-staged": "lint-staged"
+	},
+	"devDependencies": {
+		"@commitlint/cli": "^17.7.1",
+		"@commitlint/config-conventional": "^17.7.0",
+		"@nuxt/devtools": "latest",
+		"@rushstack/eslint-patch": "^1.4.0",
+		"@vue/eslint-config-prettier": "^8.0.0",
+		"@vue/eslint-config-typescript": "^12.0.0",
+		"commitizen": "^4.3.0",
+		"cz-customizable": "^7.0.0",
+		"eslint": "^8.49.0",
+		"eslint-plugin-vue": "^9.17.0",
+		"husky": "^8.0.3",
+		"lint-staged": "^14.0.1",
+		"nuxt": "^3.7.3",
+		"prettier": "^3.0.3",
+		"sass": "^1.67.0",
+		"stylelint": "^13.13.1",
+		"stylelint-config-prettier": "^9.0.3",
+		"stylelint-config-standard": "^22.0.0",
+		"stylelint-order": "^4.1.0",
+		"stylelint-scss": "^3.20.1",
+		"typescript": "^5.2.2"
+	},
+	"config": {
+		"commitizen": {
+			"path": "node_modules/cz-customizable"
+		}
+	}
 }
