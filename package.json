@@ -11,7 +11,8 @@
     "commit-all": "git add . & git-cz & git push",
     "lint:eslint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore",
     "lint:prettier": "prettier --write \"**/*.{js,ts,json,tsx,css,less,scss,vue,html,md}\"",
-    "lint:stylelint": "stylelint --fix \"**/*.{vue,less,postcss,css,scss}\" --cache --cache-location node_modules/.cache/stylelint/"
+    "lint:stylelint": "stylelint --fix \"**/*.{vue,less,postcss,css,scss}\" --cache --cache-location node_modules/.cache/stylelint/",
+    "lint:lint-staged": "lint-staged"
   },
   "devDependencies": {
     "@commitlint/cli": "^17.7.1",
@@ -25,6 +26,7 @@
     "eslint": "^8.49.0",
     "eslint-plugin-vue": "^9.17.0",
     "husky": "^8.0.3",
+    "lint-staged": "^14.0.1",
     "nuxt": "^3.7.3",
     "prettier": "^3.0.3",
     "sass": "^1.67.0",
