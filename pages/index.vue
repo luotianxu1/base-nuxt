@@ -1,7 +1,15 @@
 <template>
-  <div>hello</div>
+  <div class="main">
+    <div class="title">hello</div>
+  </div>
 </template>
 
 <script lang="ts" setup></script>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+.main {
+  .title {
+    color: red;
+  }
+}
+</style>

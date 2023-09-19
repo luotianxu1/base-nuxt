@@ -22,7 +22,8 @@
     "eslint": "^8.49.0",
     "eslint-plugin-vue": "^9.17.0",
     "husky": "^8.0.3",
-    "nuxt": "^3.7.3"
+    "nuxt": "^3.7.3",
+    "sass": "^1.67.0"
   },
   "config": {
     "commitizen": {
