@@ -4,11 +4,6 @@ settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
 
-dependencies:
-  '@rushstack/eslint-patch':
-    specifier: ^1.4.0
-    version: registry.npmmirror.com/@rushstack/eslint-patch@1.4.0
-
 devDependencies:
   '@commitlint/cli':
     specifier: ^17.7.1
@@ -19,6 +14,9 @@ devDependencies:
   '@nuxt/devtools':
     specifier: latest
     version: registry.npmmirror.com/@nuxt/devtools@0.8.3(nuxt@3.7.3)(vite@4.4.9)
+  '@rushstack/eslint-patch':
+    specifier: ^1.4.0
+    version: registry.npmmirror.com/@rushstack/eslint-patch@1.4.0
   '@vue/eslint-config-prettier':
     specifier: ^8.0.0
     version: registry.npmmirror.com/@vue/eslint-config-prettier@8.0.0(eslint@8.49.0)(prettier@3.0.3)
@@ -43,6 +41,9 @@ devDependencies:
   nuxt:
     specifier: ^3.7.3
     version: registry.npmmirror.com/nuxt@3.7.3(@types/node@20.4.7)(eslint@8.49.0)(sass@1.67.0)(stylelint@13.13.1)(typescript@5.2.2)
+  prettier:
+    specifier: ^3.0.3
+    version: registry.npmmirror.com/prettier@3.0.3
   sass:
     specifier: ^1.67.0
     version: registry.npmmirror.com/sass@1.67.0
@@ -61,6 +62,9 @@ devDependencies:
   stylelint-scss:
     specifier: ^3.20.1
     version: registry.npmmirror.com/stylelint-scss@3.20.1(stylelint@13.13.1)
+  typescript:
+    specifier: ^5.2.2
+    version: registry.npmmirror.com/typescript@5.2.2
 
 packages:
 
@@ -2211,7 +2215,7 @@ packages:
     resolution: {integrity: sha512-cEjvTPU32OM9lUFegJagO0mRnIn+rbqrG89vV8/xLnLFX0DoR0r1oy5IlTga71Q7uT3Qus7qm7wgeiMT/+Irlg==, registry: http://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@rushstack/eslint-patch/-/eslint-patch-1.4.0.tgz}
     name: '@rushstack/eslint-patch'
     version: 1.4.0
-    dev: false
+    dev: true
 
   registry.npmmirror.com/@sideway/address@4.1.4:
     resolution: {integrity: sha512-7vwq+rOHVWjyXxVlR76Agnvhy8I9rpzjosTESvmhNeXOXdZZB15Fl+TI9x1SiHZH5Jv2wTGduSxFDIaq0m3DUw==, registry: http://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@sideway/address/-/address-4.1.4.tgz}
