@@ -9,7 +9,8 @@
     "postinstall": "nuxt prepare",
     "commit": "git-cz",
     "commit-all": "git add . & git-cz & git push",
-    "lint:eslint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore"
+    "lint:eslint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore",
+    "lint:stylelint": "stylelint --fix \"**/*.{vue,less,postcss,css,scss}\" --cache --cache-location node_modules/.cache/stylelint/"
   },
   "devDependencies": {
     "@commitlint/cli": "^17.7.1",
@@ -23,7 +24,12 @@
     "eslint-plugin-vue": "^9.17.0",
     "husky": "^8.0.3",
     "nuxt": "^3.7.3",
-    "sass": "^1.67.0"
+    "sass": "^1.67.0",
+    "stylelint": "^13.13.1",
+    "stylelint-config-prettier": "^9.0.3",
+    "stylelint-config-standard": "^22.0.0",
+    "stylelint-order": "^4.1.0",
+    "stylelint-scss": "^3.20.1"
   },
   "config": {
     "commitizen": {
