@@ -1,15 +1,13 @@
+<script setup lang="ts">
+const pStore = useUser()
+</script>
+
 <template>
-	<div class="main">
-		<div class="title">hello world</div>
+	<div style="font-size: 40px; line-height: 60px">
+		<div>Hi! I'm nuxt project!</div>
+		<div>
+			Here plugin state: {{ pStore.count }}
+			<button @click="pStore.add">setPState</button>
+		</div>
 	</div>
 </template>
-
-<script lang="ts" setup></script>
-
-<style lang="scss" scoped>
-.main {
-	.title {
-		color: red;
-	}
-}
-</style>
